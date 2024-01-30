@@ -19,7 +19,7 @@ function App() {
         </div>
         {message.map((el, index) => {
           return (
-              <div key={index}>{el.message}</div>
+              <div key={index}>{el.message} </div>
           )
         })}
       </div>
